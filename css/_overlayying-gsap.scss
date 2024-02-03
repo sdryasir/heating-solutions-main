@@ -1,0 +1,290 @@
+// .panel.align-top {
+//     align-items: flex-start;
+//   }
+  
+//   .panel h1 {
+//     font-size: 1.8em;
+//     color: white;
+//     font-weight: 300;
+//     margin: 0 auto;
+//   }
+//   .panel.description {
+//     padding-bottom: 60px;
+//   }
+//   // .panel p, .panel li {
+//   //   // color: black;
+//   //   // font-weight: 400;
+//   //   // text-align: left;
+//   //   // font-size: 0.8em;
+//   //   // line-height: 1.5em;
+//   //   // margin: 0.3em 0 1em 0;
+//   // }
+//   .panel p strong, .panel li strong {
+//     color: white;
+//     font-weight: 400;
+//   }
+//   .panel p code, .panel li code {
+//     background-color: rgba(255,255,255,0.15);
+//     padding: 2px 4px;
+//     border-radius: 5px;
+//   }
+//   // .panel li {
+//   //   margin: 0;
+//   // }
+//   .gray {
+//     background-color: #777;
+//     background-image: radial-gradient(circle at 47% 14%, rgba(205, 205, 205,0.04) 0%, rgba(205, 205, 205,0.04) 43%,transparent 43%, transparent 100%),radial-gradient(circle at 35% 12%, rgba(215, 215, 215,0.04) 0%, rgba(215, 215, 215,0.04) 4%,transparent 4%, transparent 100%),radial-gradient(circle at 1% 35%, rgba(24, 24, 24,0.04) 0%, rgba(24, 24, 24,0.04) 37%,transparent 37%, transparent 100%),radial-gradient(circle at 21% 1%, rgba(0, 0, 0,0.04) 0%, rgba(0, 0, 0,0.04) 26%,transparent 26%, transparent 100%),radial-gradient(circle at 23% 82%, rgba(249, 249, 249,0.04) 0%, rgba(249, 249, 249,0.04) 60%,transparent 60%, transparent 100%),radial-gradient(circle at 11% 54%, rgba(251, 251, 251,0.04) 0%, rgba(251, 251, 251,0.04) 23%,transparent 23%, transparent 100%),radial-gradient(circle at 69% 68%, rgba(234, 234, 234,0.04) 0%, rgba(234, 234, 234,0.04) 10%,transparent 10%, transparent 100%),linear-gradient(90deg, #777,#606060);
+//   }
+//   .blue {
+//     background-color: #2c7ad2;
+//     background-image: radial-gradient(circle at 47% 14%, rgba(205, 205, 205,0.04) 0%, rgba(205, 205, 205,0.04) 43%,transparent 43%, transparent 100%),radial-gradient(circle at 35% 12%, rgba(215, 215, 215,0.04) 0%, rgba(215, 215, 215,0.04) 4%,transparent 4%, transparent 100%),radial-gradient(circle at 1% 35%, rgba(24, 24, 24,0.04) 0%, rgba(24, 24, 24,0.04) 37%,transparent 37%, transparent 100%),radial-gradient(circle at 21% 1%, rgba(0, 0, 0,0.04) 0%, rgba(0, 0, 0,0.04) 26%,transparent 26%, transparent 100%),radial-gradient(circle at 23% 82%, rgba(249, 249, 249,0.04) 0%, rgba(249, 249, 249,0.04) 60%,transparent 60%, transparent 100%),radial-gradient(circle at 11% 54%, rgba(251, 251, 251,0.04) 0%, rgba(251, 251, 251,0.04) 23%,transparent 23%, transparent 100%),radial-gradient(circle at 69% 68%, rgba(234, 234, 234,0.04) 0%, rgba(234, 234, 234,0.04) 10%,transparent 10%, transparent 100%),linear-gradient(90deg, #2c7ad2,#1568c6);
+//   }
+//   .orange {
+//     min-height: 100vh;
+//     background: rgb(213,187,231);
+// background: linear-gradient(125deg, rgba(213,187,231,1) 37%, rgba(105,184,224,1) 99%);
+
+//     // background-color: #44b09e;
+//     // background-image: linear-gradient(315deg, #44b09e 0%, #e0d2c7 74%);
+//     // background-color: #e77614;
+//     // background-image: radial-gradient(circle at 46% 40%, rgba(228, 228, 228,0.06) 0%, rgba(228, 228, 228,0.06) 13%,transparent 13%, transparent 100%),radial-gradient(circle at 11% 41%, rgba(198, 198, 198,0.06) 0%, rgba(198, 198, 198,0.06) 19%,transparent 19%, transparent 100%),radial-gradient(circle at 52% 23%, rgba(14, 14, 14,0.06) 0%, rgba(14, 14, 14,0.06) 69%,transparent 69%, transparent 100%),radial-gradient(circle at 13% 85%, rgba(148, 148, 148,0.06) 0%, rgba(148, 148, 148,0.06) 44%,transparent 44%, transparent 100%),radial-gradient(circle at 57% 74%, rgba(232, 232, 232,0.06) 0%, rgba(232, 232, 232,0.06) 21%,transparent 21%, transparent 100%),radial-gradient(circle at 59% 54%, rgba(39, 39, 39,0.06) 0%, rgba(39, 39, 39,0.06) 49%,transparent 49%, transparent 100%),radial-gradient(circle at 98% 38%, rgba(157, 157, 157,0.06) 0%, rgba(157, 157, 157,0.06) 24%,transparent 24%, transparent 100%),radial-gradient(circle at 8% 6%, rgba(60, 60, 60,0.06) 0%, rgba(60, 60, 60,0.06) 12%,transparent 12%, transparent 100%),linear-gradient(90deg, #ff7600, #ff7600);
+//   }
+  
+//   .red {
+//     // min-height: 100vh;
+//     background: rgb(235,229,253);
+//     background: linear-gradient(125deg, rgba(235,229,253,1) 4%, rgba(181,164,225,1) 52%);
+//     // background-color: #c82736;
+//     // background-image: radial-gradient(circle at 19% 90%, rgba(190, 190, 190,0.04) 0%, rgba(190, 190, 190,0.04) 17%,transparent 17%, transparent 100%),radial-gradient(circle at 73% 2%, rgba(78, 78, 78,0.04) 0%, rgba(78, 78, 78,0.04) 94%,transparent 94%, transparent 100%),radial-gradient(circle at 45% 2%, rgba(18, 18, 18,0.04) 0%, rgba(18, 18, 18,0.04) 55%,transparent 55%, transparent 100%),radial-gradient(circle at 76% 60%, rgba(110, 110, 110,0.04) 0%, rgba(110, 110, 110,0.04) 34%,transparent 34%, transparent 100%),radial-gradient(circle at 68% 56%, rgba(246, 246, 246,0.04) 0%, rgba(246, 246, 246,0.04) 16%,transparent 16%, transparent 100%),radial-gradient(circle at 71% 42%, rgba(156, 156, 156,0.04) 0%, rgba(156, 156, 156,0.04) 47%,transparent 47%, transparent 100%),radial-gradient(circle at 46% 82%, rgba(247, 247, 247,0.04) 0%, rgba(247, 247, 247,0.04) 39%,transparent 39%, transparent 100%),radial-gradient(circle at 50% 47%, rgba(209, 209, 209,0.04) 0%, rgba(209, 209, 209,0.04) 45%,transparent 45%, transparent 100%),linear-gradient(90deg, #e53949,#cc2232);
+//   }
+  
+//   .purple {
+//     // min-height: 100vh;
+//     background: rgb(235,229,253);
+//     background: linear-gradient(125deg, rgba(235,229,253,1) 4%, rgba(181,164,225,1) 52%);
+
+
+//     // background-color: #8d3dae;
+//     // background-image: radial-gradient(circle at 47% 14%, rgba(205, 205, 205,0.04) 0%, rgba(205, 205, 205,0.04) 43%,transparent 43%, transparent 100%),radial-gradient(circle at 35% 12%, rgba(215, 215, 215,0.04) 0%, rgba(215, 215, 215,0.04) 4%,transparent 4%, transparent 100%),radial-gradient(circle at 1% 35%, rgba(24, 24, 24,0.04) 0%, rgba(24, 24, 24,0.04) 37%,transparent 37%, transparent 100%),radial-gradient(circle at 21% 1%, rgba(0, 0, 0,0.04) 0%, rgba(0, 0, 0,0.04) 26%,transparent 26%, transparent 100%),radial-gradient(circle at 23% 82%, rgba(249, 249, 249,0.04) 0%, rgba(249, 249, 249,0.04) 60%,transparent 60%, transparent 100%),radial-gradient(circle at 11% 54%, rgba(251, 251, 251,0.04) 0%, rgba(251, 251, 251,0.04) 23%,transparent 23%, transparent 100%),radial-gradient(circle at 69% 68%, rgba(234, 234, 234,0.04) 0%, rgba(234, 234, 234,0.04) 10%,transparent 10%, transparent 100%),linear-gradient(90deg, #8d3dae,#8d3dae);
+//   }
+//   .green {
+
+//     // min-height: 100vh;
+//     background: rgb(213,187,231);
+// background: linear-gradient(125deg, rgba(213,187,231,1) 37%, rgba(105,184,224,1) 99%);
+//     // background-color: #28a92b;
+//     // background-image: radial-gradient(circle at 46% 40%, rgba(228, 228, 228,0.06) 0%, rgba(228, 228, 228,0.06) 13%,transparent 13%, transparent 100%),radial-gradient(circle at 11% 41%, rgba(198, 198, 198,0.06) 0%, rgba(198, 198, 198,0.06) 19%,transparent 19%, transparent 100%),radial-gradient(circle at 52% 23%, rgba(14, 14, 14,0.06) 0%, rgba(14, 14, 14,0.06) 69%,transparent 69%, transparent 100%),radial-gradient(circle at 13% 85%, rgba(148, 148, 148,0.06) 0%, rgba(148, 148, 148,0.06) 44%,transparent 44%, transparent 100%),radial-gradient(circle at 57% 74%, rgba(232, 232, 232,0.06) 0%, rgba(232, 232, 232,0.06) 21%,transparent 21%, transparent 100%),radial-gradient(circle at 59% 54%, rgba(39, 39, 39,0.06) 0%, rgba(39, 39, 39,0.06) 49%,transparent 49%, transparent 100%),radial-gradient(circle at 98% 38%, rgba(157, 157, 157,0.06) 0%, rgba(157, 157, 157,0.06) 24%,transparent 24%, transparent 100%),radial-gradient(circle at 8% 6%, rgba(60, 60, 60,0.06) 0%, rgba(60, 60, 60,0.06) 12%,transparent 12%, transparent 100%),linear-gradient(90deg, #28a92b, #10a614);
+//   }
+  
+//   // html, body {
+//   //   margin: 0;
+//   //   height: 100%;
+//   //   -webkit-overflow-scrolling: touch;
+//   //   // overflow-scrolling: touch;
+//   //   // font-family: "Signika Negative", sans-serif, Arial;
+//   // }
+  
+//   .panel {
+//       width: 100%;
+//     height: fit-content;
+//     // display: flex;
+//     // justify-content: center;
+//     // align-items: center;
+//     // font-weight: 600;
+//     // font-size: 1.5em;
+//     // text-align: center;
+//     // color: white;
+//     position: relative;
+//     box-sizing: border-box;
+//     // padding: 10px;
+//   }
+  
+//   // body {
+//   //   overflow-x: hidden;
+//   //   overflow-y: scroll;
+//   // }
+  
+//   // h1, h2, p, li {
+//   //   max-width: 800px;
+//   // }
+  
+//   /* HEADER */
+//   // header {
+//   //   position: fixed;
+//   //   top: 0px;
+//   //   left: 0px;
+//   //   padding: 6px 10px 10px 10px;
+//   //   border-bottom-right-radius: 26px;
+//   //   z-index: 100;
+//   //   background-color: rgba(0,0,0,0.5);
+//   //   will-change: transform;
+//   // }
+  
+//   /* HEADINGS */
+//   // .header-section {
+//   //   padding: 0 15px;
+//   //   text-align: center;
+//   //   margin: 40vh auto 50vh;
+//   // }
+  
+//   /* SCROLL DOWN */ 
+//   .scroll-down {
+//     position: absolute; 
+//     bottom: 30px;
+//     left: 50%;
+//     transform: translate(-50%, 0);
+//     color: black;
+//     font-weight: 400;
+//     text-transform: uppercase;
+//     font-size: 16px;
+//     overflow: visible;
+//   }
+//   .scroll-down .arrow {
+//     position: relative;
+//     top: -4px;
+//     margin: 0 auto;
+//     width: 20px;
+//     height: 20px;
+//     background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KPHBhdGggZmlsbD0iYmxhY2siIGQ9Ik00ODMuMiwxOTIuMmMtMjAuNS0yMC41LTUzLjUtMjAuOC03My43LTAuNkwyNTcsMzQ0LjFMMTA0LjUsMTkxLjZjLTIwLjItMjAuMi01My4yLTE5LjktNzMuNywwLjYKCWMtMjAuNSwyMC41LTIwLjgsNTMuNS0wLjYsNzMuN2wxOTAsMTkwYzEwLjEsMTAuMSwyMy40LDE1LjEsMzYuOCwxNWMxMy4zLDAuMSwyNi43LTQuOSwzNi44LTE1bDE5MC0xOTAKCUM1MDMuOSwyNDUuNyw1MDMuNywyMTIuNyw0ODMuMiwxOTIuMnoiLz4KPC9zdmc+);
+//     background-size: contain;
+//   }
+  
+//   .arrow-right {
+//     transform: rotate(-90deg);
+//     position: relative;
+//     top: -4px;
+//     margin: 1rem auto;
+//     width: 20px;
+//     height: 20px;
+//     background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KPHBhdGggZmlsbD0iYmxhY2siIGQ9Ik00ODMuMiwxOTIuMmMtMjAuNS0yMC41LTUzLjUtMjAuOC03My43LTAuNkwyNTcsMzQ0LjFMMTA0LjUsMTkxLjZjLTIwLjItMjAuMi01My4yLTE5LjktNzMuNywwLjYKCWMtMjAuNSwyMC41LTIwLjgsNTMuNS0wLjYsNzMuN2wxOTAsMTkwYzEwLjEsMTAuMSwyMy40LDE1LjEsMzYuOCwxNWMxMy4zLDAuMSwyNi43LTQuOSwzNi44LTE1bDE5MC0xOTAKCUM1MDMuOSwyNDUuNyw1MDMuNywyMTIuNyw0ODMuMiwxOTIuMnoiLz4KPC9zdmc+);
+//     background-size: contain;
+//   }
+
+
+
+
+
+
+// @import url(https://fonts.googleapis.com/css?family=Nunito);
+
+// html {
+//   height: 100%;
+//   overflow: hidden;
+// // }
+
+// .company_intro { 
+//   margin:0;
+//   padding:0;
+// 	perspective: 1px;
+// 	transform-style: preserve-3d;
+//   height: 100%;
+//   overflow-y: scroll;
+//   overflow-x: hidden;
+//   font-family: Nunito;
+// }
+
+// // h1 {
+// //    font-size: 250%
+// // }
+
+// // p {
+// //   font-size: 140%;
+// //   line-height: 150%;
+// //   color: #333;
+// // }
+
+// .slide {
+//   position: relative;
+//   padding: 25vh 10%;
+//   min-height: 100vh;
+//   width: 100vw;
+//   box-sizing: border-box;
+//   box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+// 	transform-style: inherit;
+// }
+
+// .slide img {
+//   position: absolute;
+//   top: 50%;
+//   left: 35%;
+//   width: 320px;
+//   height: 240px;
+//   transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
+//   padding: 10px;
+//   border-radius: 5px;
+//   background: rgba(240,230,220, .7);
+//   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+// }
+
+// .slide img:last-of-type {
+//   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
+// }
+
+// .slide:before {
+//   content: "";
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   box-shadow: 0 0 8px 1px rgba(0, 0, 0, .7);
+// }
+
+// .title {
+//   width: 50%;
+//   padding: 5%;
+//   border-radius: 5px;
+//   background: rgba(240,230,220, .7);
+//   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+// }
+
+// .slide:nth-child(2n) .title {
+//   margin-left: 0;
+//   margin-right: auto;
+// }
+
+// .slide:nth-child(2n+1) .title {
+//   margin-left: auto;
+//   margin-right: 0;
+// }
+
+// .slide, .slide:before {
+//   background: 50% 50% / cover;  
+// }
+
+// // .header {
+// //   text-align: center;
+// //   font-size: 175%;
+// //   color: #fff;
+// //   text-shadow: 0 2px 2px #000;
+// // }
+
+// #title {
+//   background-image: url("https://picsum.photos/640/480");
+//   z-index:2;
+// }
+
+// #title h1 {
+//  transform: translateZ(.25px) scale(.75);
+//  transform-origin: 50% 100%;
+
+// }
+
+// #slide1:before {
+//   background-image: url("https://picsum.photos/960/520");
+//   transform: translateZ(-1px) scale(2);
+// }
+
+// #slide2 {
+//   background-image: url("https://picsum.photos/960/400");
+//   z-index:2;
+// }
+
+// #slide3:before {
+//   background-image: url("https://picsum.photos/980/600");
+//   transform: translateZ(-1px) scale(2);
+// }
+
+// #slide4 {
+//   background: #222;
+// }
